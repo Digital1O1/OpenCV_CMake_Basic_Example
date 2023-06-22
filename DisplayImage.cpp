@@ -1,10 +1,9 @@
 #include <opencv2/opencv.hpp> // Include the main OpenCV header
-
+#
 int main()
 {
-
     // Read an image using the imread function with the IMREAD_COLOR flag
-    cv::Mat image = cv::imread("E:/Coding Folder/CMake Personal Projects/OpenCV_CMake_Test/Grumpy-Cat-2015-memes.jpeg", cv::IMREAD_COLOR);
+    cv::Mat image = cv::imread("E:/Coding Folder/CMake Personal Projects/OpenCV_CMake_Basic/Cat_Meme_.jpeg", cv::IMREAD_COLOR);
 
     if (image.empty())
     {
@@ -21,3 +20,21 @@ int main()
 
     return 0;
 }
+/*
+    Terminal/Powershell commands used to generate EXE file
+
+    WINDOWS
+        - cd <directory>
+        - mkdir build
+        - cd build
+        - cmake -DCMAKE_BUILD_TYPE=Release ..
+        - cmake --build . --config Release
+
+    Linux
+        - cd <directory>
+        - mkdir build
+        - cd build
+        - cmake -DCMAKE_BUILD_TYPE=Release ..
+        - make
+
+*/

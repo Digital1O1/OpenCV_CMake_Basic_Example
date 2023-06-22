@@ -1,0 +1,10 @@
+^E:\CODING FOLDER\CMAKE PERSONAL PROJECTS\OPENCV_CMAKE_BASIC\BUILD\CMAKEFILES\3ED3C3FFF4FE0CCDDBB438A86A1F98C3\GENERATE.STAMP.RULE
+setlocal
+C:\Users\Digital101\AppData\Roaming\Python\Python310\site-packages\cmake\data\bin\cmake.exe "-SE:/Coding Folder/CMake Personal Projects/OpenCV_CMake_Basic" "-BE:/Coding Folder/CMake Personal Projects/OpenCV_CMake_Basic/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/Coding Folder/CMake Personal Projects/OpenCV_CMake_Basic/build/DisplayImage.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
