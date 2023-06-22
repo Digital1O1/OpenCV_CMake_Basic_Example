@@ -5,10 +5,18 @@ project(DisplayImage)
 # Should point towards directory that has OpenCVConfig.cmake
 
 # Points towards OpenCVConfig.cmake
-set(OpenCV_DIR "E:/Coding Folder/OpenCV Folder/build/install/x64/vc16/lib")  # Specify the path to the OpenCVConfig.cmake file
-#set(OpenCV_DIR "E:/Coding Folder/OpenCV Folder/build/bin/Release")
+
+# Windows path
+#set(OpenCV_DIR "E:/Coding Folder/OpenCV Folder/build/install/x64/vc16/lib")  # Specify the path to the OpenCVConfig.cmake file
+# RPI Path NOT NEEDED
+#set(OpenCV_DIR "/home/pi/OpenCV/build/unix-install")
+
 # Points towards libraries
-set(OpenCV_INCLUDE_DIRS "E:/Coding Folder/OpenCV Folder/build/install/x64/vc16/lib")
+# Windows path
+#set(OpenCV_INCLUDE_DIRS "E:/Coding Folder/OpenCV Folder/build/install/x64/vc16/lib")
+
+# RPI Path
+set(OpenCV_INCLUDE_DIRS, "~/opencv/include/opencv2/")
 # Sets OpenCV version to 4.7
 set(OpenCV_VERSION "4.7")
 #set(OpenCV_LIBS "E:/Coding Folder/OpenCV Folder/build/install/x64/vc16/lib")

@@ -3,8 +3,12 @@
 int main()
 {
     // Read an image using the imread function with the IMREAD_COLOR flag
-    cv::Mat image = cv::imread("E:/Coding Folder/CMake Personal Projects/OpenCV_CMake_Basic/Cat_Meme_.jpeg", cv::IMREAD_COLOR);
+    // Windows path
+    //cv::Mat image = cv::imread("E:/Coding Folder/CMake Personal Projects/OpenCV_CMake_Basic/Cat_Meme_.jpeg", cv::IMREAD_COLOR);
 
+    // Linux path
+    cv::Mat image = cv::imread("/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/Cat_Meme_.jpeg", cv::IMREAD_COLOR);
+    // /home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example
     if (image.empty())
     {
         // Error handling if the image fails to load
@@ -36,5 +40,6 @@ int main()
         - cd build
         - cmake -DCMAKE_BUILD_TYPE=Release ..
         - make
+            - cmake --build . --config Release 
 
 */

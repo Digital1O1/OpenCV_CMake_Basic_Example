@@ -1,8 +1,32 @@
-E:/Coding Folder/CMake Personal Projects/OpenCV_CMake_Basic/build/CMakeFiles/Experimental.dir
-E:/Coding Folder/CMake Personal Projects/OpenCV_CMake_Basic/build/CMakeFiles/Nightly.dir
-E:/Coding Folder/CMake Personal Projects/OpenCV_CMake_Basic/build/CMakeFiles/Continuous.dir
-E:/Coding Folder/CMake Personal Projects/OpenCV_CMake_Basic/build/CMakeFiles/NightlyMemoryCheck.dir
-E:/Coding Folder/CMake Personal Projects/OpenCV_CMake_Basic/build/CMakeFiles/DisplayImage.dir
-E:/Coding Folder/CMake Personal Projects/OpenCV_CMake_Basic/build/CMakeFiles/RUN_TESTS.dir
-E:/Coding Folder/CMake Personal Projects/OpenCV_CMake_Basic/build/CMakeFiles/ALL_BUILD.dir
-E:/Coding Folder/CMake Personal Projects/OpenCV_CMake_Basic/build/CMakeFiles/ZERO_CHECK.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/rebuild_cache.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/edit_cache.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/test.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/NightlyUpdate.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/NightlyBuild.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/DisplayImage.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/NightlyTest.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/NightlyStart.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/NightlySubmit.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/ExperimentalSubmit.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/Continuous.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/ExperimentalStart.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/ExperimentalConfigure.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/ExperimentalCoverage.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/ExperimentalBuild.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/Nightly.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/NightlyMemCheck.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/NightlyMemoryCheck.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/ExperimentalTest.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/Experimental.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/ExperimentalUpdate.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/NightlyConfigure.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/ContinuousStart.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/ContinuousUpdate.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/ExperimentalMemCheck.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/ContinuousBuild.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/NightlyCoverage.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/ContinuousConfigure.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/ContinuousSubmit.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/ContinuousTest.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/ContinuousCoverage.dir
+/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/ContinuousMemCheck.dir
