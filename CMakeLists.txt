@@ -1,23 +1,25 @@
 cmake_minimum_required(VERSION 3.10)
 project(DisplayImage)
 
-# Set OpenCV directory
-# Should point towards directory that has OpenCVConfig.cmake
-
-# Points towards OpenCVConfig.cmake
+# -------------------------- [ SET OPENCV DIRECTORY PATH TO POINT TOWARDS OpenCVConfig.cmake FILE ] -------------------------- #
 
 # Windows path
 #set(OpenCV_DIR "E:/Coding Folder/OpenCV Folder/build/install/x64/vc16/lib")  # Specify the path to the OpenCVConfig.cmake file
 # RPI Path NOT NEEDED
 #set(OpenCV_DIR "/home/pi/OpenCV/build/unix-install")
+# Jetson Nano path
+#set(OpenCV_DIR " ")
 
-# Points towards libraries
+# -------------------------- [ SET OpenCV_INCLUDE_DIRS TO POINT TOWARDS LIBRARIES ] -------------------------- #
 # Windows path
 #set(OpenCV_INCLUDE_DIRS "E:/Coding Folder/OpenCV Folder/build/install/x64/vc16/lib")
-
 # RPI Path
 set(OpenCV_INCLUDE_DIRS, "~/opencv/include/opencv2/")
-# Sets OpenCV version to 4.7
+# Jetson Nano path
+set(OpenCV_INCLUDE_DIRS, "")
+
+# -------------------------- [ SET OpenCV_Version to 4.7 ] -------------------------- #
+
 set(OpenCV_VERSION "4.7")
 #set(OpenCV_LIBS "E:/Coding Folder/OpenCV Folder/build/install/x64/vc16/lib")
 
