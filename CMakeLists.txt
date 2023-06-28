@@ -6,11 +6,9 @@ project(DisplayImage)
 #set(OpenCV_DIR "E:/Coding Folder/OpenCV Folder/build/install/x64/vc16/lib")  # Specify the path to the OpenCVConfig.cmake file
 # RPI Path NOT NEEDED
 #set(OpenCV_DIR "/home/pi/OpenCV/build/unix-install")
-<<<<<<< HEAD
 # Jetson Nano path
 =======
 # Jetson Nano path NOT NEEDED
->>>>>>> 59e527f5fba5b86b981576b18695ae6a32e4b465
 #set(OpenCV_DIR "~/opencv/build")
 
 # -------------------------- [ SET OpenCV_INCLUDE_DIRS TO POINT TOWARDS LIBRARIES ] -------------------------- #
