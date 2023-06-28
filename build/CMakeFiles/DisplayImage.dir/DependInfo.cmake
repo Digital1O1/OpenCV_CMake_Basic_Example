@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/DisplayImage.cpp" "/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/DisplayImage.dir/DisplayImage.cpp.o"
+  "/home/ctnano/Desktop/Coding_Folder/OpenCV_Cmake_Basic_Example/DisplayImage.cpp" "/home/ctnano/Desktop/Coding_Folder/OpenCV_Cmake_Basic_Example/build/CMakeFiles/DisplayImage.dir/DisplayImage.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include/opencv4"
+  "/usr/include/opencv4"
   )
 
 # Targets to which this target links.

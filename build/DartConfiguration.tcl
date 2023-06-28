@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example
-BuildDirectory: /home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/build
+SourceDirectory: /home/ctnano/Desktop/Coding_Folder/OpenCV_Cmake_Basic_Example
+BuildDirectory: /home/ctnano/Desktop/Coding_Folder/OpenCV_Cmake_Basic_Example/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: raspberrypi
+Site: ctnano-desktop
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-c++
@@ -20,14 +20,24 @@ BuildName: Linux-c++
 LabelsForSubprojects: 
 
 # Submission information
-SubmitURL: http://
+IsCDash: 
+CDashVersion: 
+QueryCDashVersion: 
+DropSite: 
+DropLocation: 
+DropSiteUser: 
+DropSitePassword: 
+DropSiteMode: 
+DropMethod: http
+TriggerSite: 
+ScpCommand: /usr/bin/scp
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example"
-MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "/usr/bin/cmake" "/home/ctnano/Desktop/Coding_Folder/OpenCV_Cmake_Basic_Example"
+MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -63,14 +73,12 @@ UpdateType: git
 
 # Compiler info
 Compiler: /usr/bin/c++
-CompilerVersion: 10.2.1
+CompilerVersion: 7.5.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
 ValgrindCommand: 
 ValgrindCommandOptions: 
-DrMemoryCommand: 
-DrMemoryCommandOptions: 
 MemoryCheckType: 
 MemoryCheckSanitizerOptions: 
 MemoryCheckCommand: MEMORYCHECK_COMMAND-NOTFOUND

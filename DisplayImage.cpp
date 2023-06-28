@@ -5,9 +5,9 @@ int main()
     // Read an image using the imread function with the IMREAD_COLOR flag
     // Windows path
     //cv::Mat image = cv::imread("E:/Coding Folder/CMake Personal Projects/OpenCV_CMake_Basic/Cat_Meme_.jpeg", cv::IMREAD_COLOR);
-
+    
     // Linux path
-    cv::Mat image = cv::imread("/home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example/Cat_Meme_.jpeg", cv::IMREAD_COLOR);
+    cv::Mat image = cv::imread("/home/ctnano/Desktop/Coding_Folder/OpenCV_Cmake_Basic_Example/Cat_Meme_.jpeg", cv::IMREAD_COLOR);
     // /home/pi/Desktop/Coding_folder/OpenCV_Cmake_Basic_Example
     if (image.empty())
     {
@@ -42,4 +42,6 @@ int main()
         - make
             - cmake --build . --config Release 
 
+    Path to JPEG : /home/ctnano/Desktop/Coding_Folder/OpenCV_Cmake_Basic_Example/Cat_Meme_.jpeg
+        - use readlink -f new.txt to find file path
 */
