@@ -7,7 +7,6 @@ project(DisplayImage)
 # RPI Path NOT NEEDED
 #set(OpenCV_DIR "/home/pi/OpenCV/build/unix-install")
 # Jetson Nano path
-=======
 # Jetson Nano path NOT NEEDED
 #set(OpenCV_DIR "~/opencv/build")
 
@@ -15,11 +14,9 @@ project(DisplayImage)
 # Windows path
 #set(OpenCV_INCLUDE_DIRS "E:/Coding Folder/OpenCV Folder/build/install/x64/vc16/lib")
 # RPI Path
-<<<<<<< HEAD
 # set(OpenCV_INCLUDE_DIRS, "~/opencv/include/opencv2/")
 =======
 #set(OpenCV_INCLUDE_DIRS, "~/opencv/include/opencv2/")
->>>>>>> 59e527f5fba5b86b981576b18695ae6a32e4b465
 # Jetson Nano path
 set(OpenCV_INCLUDE_DIRS, "~/opencv/build/include")
 
