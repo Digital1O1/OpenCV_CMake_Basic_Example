@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.10)
+cmake_minimum_required(VERSION 3.16)
 project(DisplayImage)
 
 # -------------------------- [ SET OPENCV DIRECTORY PATH TO POINT TOWARDS OpenCVConfig.cmake FILE ] -------------------------- #
@@ -46,13 +46,19 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Add executable
-add_executable(DisplayImage DisplayImage.cpp)
+#add_executable(DisplayImage DisplayImage.cpp) # THIS WORKS
+add_executable(DisplayImage ${SOURCES})
 
 # Include OpenCV headers
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 # Link OpenCV libraries | Automatically ilnks against necessary OpenCV libraries based on find_package(OpenCV REQUIRED) command
-target_link_libraries(DisplayImage PRIVATE ${OpenCV_LIBS})
+target_link_libraries(dual_stream PRIVATE ${OpenCV_LIBS})
+
+# Multithread library
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+find_package(Threads REQUIRED)
+target_link_libraries(dual_stream PRIVATE Threads::Threads)
 
 # Additional directory for the linker
 #link_directories("E:/Coding Folder/OpenCV Folder/build/lib/Release")
