@@ -27,6 +27,11 @@ int main()
 /*
     Terminal/Powershell commands used to generate EXE file
 
+    cd <build directory>
+    cmake ..
+    make
+
+
     WINDOWS
         - cd <directory>
         - mkdir build
