@@ -15,7 +15,7 @@ project(DisplayImage)
 #set(OpenCV_INCLUDE_DIRS "E:/Coding Folder/OpenCV Folder/build/install/x64/vc16/lib")
 # RPI Path
 # set(OpenCV_INCLUDE_DIRS, "~/opencv/include/opencv2/")
-=======
+
 #set(OpenCV_INCLUDE_DIRS, "~/opencv/include/opencv2/")
 # Jetson Nano path
 set(OpenCV_INCLUDE_DIRS, "~/opencv/build/include")
