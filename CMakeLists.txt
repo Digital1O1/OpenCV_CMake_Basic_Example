@@ -37,8 +37,6 @@ message(STATUS "                                                                
 
 # Find OpenCV
 find_package(OpenCV REQUIRED)
-#find_package(OpenCV 4.7 REQUIRED COMPONENTS core imgproc highgui)
-
 include(CTest)
 
 # Set C++ standard to C++11
