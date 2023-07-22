@@ -44,8 +44,8 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Add executable
-#add_executable(DisplayImage DisplayImage.cpp) # THIS WORKS
-add_executable(DisplayImage ${SOURCES})
+add_executable(DisplayImage DisplayImage.cpp) # THIS WORKS
+#add_executable(DisplayImage ${SOURCES})
 
 # Include OpenCV headers
 include_directories(${OpenCV_INCLUDE_DIRS})
