@@ -4,8 +4,8 @@ project(OpenCV_Hello_World VERSION 0.1.0 LANGUAGES C CXX)
 # -------------------------- [ SET OPENCV DIRECTORY PATH TO POINT TOWARDS OpenCVConfig.cmake FILE ] -------------------------- #
 
 # Windows OpenCV Directory path | Comment out if using RPI or Jetson Nano
-set(OpenCV_DIR "E:/Coding Folder/OpenCV Folder/build/install/x64/vc16/lib")
-
+set(OpenCV_DIR "E:/Coding Folder/OpenCV Source Folder/build/install/x64/vc16/lib")
+set(CMAKE_PREFIX_PATH "E:/Coding Folder/OpenCV Source Folder/build/win-install/x64/vc16")
 # Specify the C++ standard
 set(CMAKE_CXX_STANDARD 11)
 
